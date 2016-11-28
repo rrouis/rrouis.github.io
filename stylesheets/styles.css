@@ -1,7 +1,8 @@
 div.profile {
+	height: 2200px;
 	background-color: #ffffff;
 	background-image: url(../images/nenpyou.jpg);
-	background-size: contain;
+	background-size: 600px 2144px;
 }
 
 .portfolio-list {
@@ -41,6 +42,16 @@ display: inline-block;
     padding-bottom: 3px;
     margin-bottom: 3px;
 }
+
+
+div.contents {
+	widows: 600px;
+	height: 105px;
+	margin: 60px;
+	margin-bottom: 160px;
+}
+
+
 
 @font-face {
   font-family: 'Noto Sans';

@@ -1,3 +1,9 @@
+div.profile {
+	background-color: #ffffff;
+	background-image: url(../images/nenpyou.jpg);
+	background-size: contain;
+}
+
 .portfolio-list {
 width: 600px;
 }

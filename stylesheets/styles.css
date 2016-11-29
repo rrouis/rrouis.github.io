@@ -46,7 +46,6 @@ div.profile {
 	background-color: #ffffff;
 	background-image: url(../images/nenpyou.jpg);
 	background-size: contain;
-	background-position: top;
 	background-repeat: no-repeat;
 	
 }
@@ -314,17 +313,19 @@ div.box {
 
 @media print, screen and (max-width: 480px) {
   section {
-    padding: 15px;
-	  background-image: url(../images/nenpyou02.jpg);
-	  background-size: contain;
-	  background-repeat: no-repeat;
+	  height: 1200px;
+	  padding: 15px;
+	  
   }
 	div.profile {
-		height: 1010px;
+		height: 1000px;
 		background: none;
-		
+		background-image: url(../images/nenpyou02.jpg);
+	  background-size: contain;
+	  background-repeat: no-repeat;
 	}
 	div.contents {
+		margin-bottom: auto;
 		visibility: hidden;
 	}
 }

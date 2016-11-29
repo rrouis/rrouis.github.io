@@ -313,7 +313,7 @@ div.box {
 
 @media print, screen and (max-width: 480px) {
   section {
-	  height: 1200px;
+	  height: 1000px;
 	  padding: 15px;
 	  
   }

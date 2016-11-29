@@ -317,14 +317,14 @@ div.box {
     padding:15px;
   }
 	div.profile {
-		height: 1200px;
+		height: 1010px;
 		
 	}
 	div.contents {
 		font-size: 4px;
-		margin: 16px;
-		margin-bottom: 70px;
-		line-height: 1.2em;
+		margin: 8px;
+		margin-bottom: 46px;
+		line-height: 1.1;
 	}
 }
  

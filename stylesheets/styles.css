@@ -280,10 +280,8 @@ div.box {
   }
 
   section {
-    border:1px solid #e5e5e5;
-    border-width:1px 0;
-    padding:20px 20px;
-    margin:0 0 20px;
+    padding: 20px 20px;
+    margin: 0 0 20px;
   }
 
   header a small {
@@ -313,17 +311,17 @@ div.box {
 
 @media print, screen and (max-width: 480px) {
   section {
-	  height: 1000px;
-	  padding: 15px;
-	  
-  }
+	  padding: 0px;
+	}
+	
 	div.profile {
-		height: 1000px;
+		height: 1140px;
 		background: none;
 		background-image: url(../images/nenpyou02.jpg);
 	  background-size: contain;
 	  background-repeat: no-repeat;
 	}
+	
 	div.contents {
 		margin-bottom: auto;
 		visibility: hidden;

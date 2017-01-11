@@ -340,6 +340,7 @@ div.box {
 @media print, screen and (max-width: 480px) {
   section {
 	  padding: 0px;
+	  margin-top: 60px;
 	}
 	
 	div.profile {

@@ -33,6 +33,14 @@
         
 
       </header>
+      <div id="loader-bg">
+  <div id="loader">
+    <img src="rotate_image.gif" width="500" alt="LOADING..." />
+    <h5>LOADING...</h5>
+  </div>
+</div>
+<div id="wrap">
+
       <section class="portfolio-list">
        <div id="columns">
        <div class="pin">
@@ -187,6 +195,7 @@
             <a href="banner.html#07"><img src="images/brandia.png" width="193px" /></a>
             
         </div>
+   </div>
                 
          
 
@@ -200,6 +209,21 @@
  
  
  <script src="javascripts/scale.fix.js"></script>
+ <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script>
+$(function() {
+  var h = $(window).height();
+ 
+  $('#wrap').css('display','none');
+  $('#loader-bg ,#loader').height(h).css('display','block');
+});
+ 
+$(window).load(function () { //全ての読み込みが完了したら実行
+  $('#loader-bg').delay(900).fadeOut(800);
+  $('#loader').delay(600).fadeOut(300);
+  $('#wrap').css('display', 'block');
+});
+</script>
 　
    
     

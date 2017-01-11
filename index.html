@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>rrouis.github.io by haruka ito</title>
-
+    
     <link rel="stylesheet" href="stylesheets/styles.css">
    <link rel="stylesheet" href="stylesheets/github-light.css">
    <link rel="stylesheet" href="stylesheets/reset.css">
@@ -16,6 +16,15 @@
     <![endif]-->
   </head>
   <body>
+   
+   <div id="loader-bg">
+  <div id="loader">
+    <img src="rotate_image.gif" width="500" alt="LOADING..." />
+    <p>LOADING...</p>
+  </div>
+</div>
+<div id="wrap">
+   
     <div class="wrapper clearfix">
       <header>
        <a href="index.html"><img src="images/i012.jpg" class="icon" /></a>
@@ -31,15 +40,6 @@
         <a href="banner.html">BANNER</a><br>
         
       </header>
-      
-      
-      <div id="loader-bg">
-  <div id="loader">
-    <img src="rotate_image.gif" width="500" alt="LOADING..." />
-    <h5>LOADING...</h5>
-  </div>
-</div>
-<div id="wrap">
 
       <section class="portfolio-list">
        <div id="columns">
@@ -196,8 +196,8 @@
             
         </div>
    </div>
-                
-         
+  </div>
+</div>
 
       
       </section>
@@ -205,7 +205,8 @@
       <footer>
 		  <p><small>© 2016 Haruka Ito</small></p>
       </footer>
- </div>
+ 
+ <script src="javascripts/scale.fix.js"></script>
  
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script>
@@ -221,11 +222,9 @@ $(window).load(function () { //全ての読み込みが完了したら実行
   $('#loader').delay(600).fadeOut(300);
   $('#wrap').css('display', 'block');
 });
+	
 </script>
-
- <script src="javascripts/scale.fix.js"></script>
 　
-   
     
   </body>
 </html>

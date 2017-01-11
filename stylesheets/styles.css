@@ -343,6 +343,10 @@ div.box {
 	  margin-top: 60px;
 	}
 	
+	h2{
+		font-size: 120%;
+	}
+	
 	div.profile {
 		height: 1140px;
 		background: none;
